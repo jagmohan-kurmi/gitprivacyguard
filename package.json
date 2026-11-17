@@ -1,0 +1,28 @@
+{
+  "name": "@jagmohan-kurmi/gitprivacyguard",
+  "version": "0.1.0",
+  "description": "Privacy-focused secret and sensitive data scanner with local-first scanning and CI-friendly reporting.",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "bin": {
+    "gitprivacyguard": "dist/src/cli.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "lint": "tsc -p tsconfig.json --noEmit",
+    "test": "npm run build && node --test dist/tests/*.test.js",
+    "dev": "tsx src/cli.ts"
+  },
+  "license": "MIT",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}

@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use GitPrivacy Guard in your work, please cite it."
+title: GitPrivacy Guard
+version: 0.1.0
+authors:
+  - family-names: Kurmi
+    given-names: Jagmohan
+url: https://github.com/jagmohan-kurmi/gitprivacyguard
+license: MIT
